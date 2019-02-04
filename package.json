@@ -1,0 +1,27 @@
+{
+  "name": "NexusGraphQLModules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/index.ts",
+    "dev": "nodemon --exec yarn start -e ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@graphql-modules/core": "0.4.0",
+    "@graphql-modules/di": "0.4.0",
+    "@types/graphql": "14.0.5",
+    "@types/node": "10.12.21",
+    "apollo-server": "2.3.3",
+    "graphql": "14.1.1",
+    "nexus": "0.9.7",
+    "reflect-metadata": "0.1.13",
+    "ts-node": "8.0.2",
+    "tsconfig-paths": "3.7.0",
+    "typescript": "3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.9"
+  }
+}
